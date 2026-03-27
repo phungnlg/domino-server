@@ -1,0 +1,7 @@
+-- Set REPLICA IDENTITY for Realtime-enabled tables
+-- This allows UPDATE and DELETE events to be published correctly
+
+ALTER TABLE game_states REPLICA IDENTITY FULL;
+ALTER TABLE moves REPLICA IDENTITY FULL;
+ALTER TABLE rooms REPLICA IDENTITY FULL;
+ALTER TABLE players REPLICA IDENTITY FULL;

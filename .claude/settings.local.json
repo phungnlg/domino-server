@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xcrun simctl:*)",
+      "Bash(open:*)",
+      "Bash(flutter pub:*)",
+      "Bash(flutter run:*)"
+    ]
+  }
+}
